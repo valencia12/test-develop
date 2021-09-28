@@ -24,7 +24,10 @@
     "yarn": "^1.22.11",
     "yup": "^0.32.9"
   },
+  "homepage": "https://valencia12.github.io/test-develop",
   "scripts": {
+    "predeploy":"yarn run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
